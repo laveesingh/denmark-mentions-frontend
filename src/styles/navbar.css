@@ -1,0 +1,16 @@
+.navbar {
+  margin: 0px;
+}
+.navbar-headline {
+  color: #ffffff !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.survey-link {
+  text-decoration: none;
+  color: #37a000;
+}
+button.navbar-btn {
+  color: white;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}

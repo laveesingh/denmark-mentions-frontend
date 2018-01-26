@@ -1,0 +1,13 @@
+#home-paper {
+  width: 85%;
+  min-height: 100px;
+  margin: auto;
+}
+#search-form-container {
+  padding: 30px 20px 30px 20px;
+}
+#results-paper {
+  width: 85%;
+  min-height: 100px;
+  margin: auto;
+}
