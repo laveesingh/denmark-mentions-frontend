@@ -8,7 +8,7 @@ import {
   MuiThemeProvider
 } from 'material-ui/styles'
 import {
-  green, purple, red, white
+  green, purple
 } from 'material-ui/colors'
 
 const theme = createMuiTheme({

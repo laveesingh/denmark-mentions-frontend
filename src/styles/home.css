@@ -10,4 +10,22 @@
   width: 85%;
   min-height: 100px;
   margin: auto;
+  padding: 30px 20px 30px 20px;
+}
+.port-iframe {
+  width: 80%;
+  height: 100%;
+}
+.post-height-manager{
+  border-radius: 3px;
+  border: none;
+  padding: 2px 5px 2px 5px;
+  font-size: 1.0em;
+}
+.post-wrapper-div{
+  /* border: 1px solid #37a000; */
+  background-color: #55ee03;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
 }

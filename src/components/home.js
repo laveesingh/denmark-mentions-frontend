@@ -8,6 +8,13 @@ import '../styles/home.css'
 export default class Home extends React.Component {
   constructor(props) {
     super(props)
+    this.state = {
+      postResults: []
+    }
+  }
+
+  setPostResults = (postResults) => {
+    this.setState({ postResults })
   }
 
   render() {
@@ -18,12 +25,12 @@ export default class Home extends React.Component {
         </Grid>
         <Grid item xs={12}>
           <Paper id="home-paper">
-            <SearchForm />
+            <SearchForm setPostResults={this.setPostResults} />
           </Paper>
         </Grid>
         <Grid item xs={12}>
           <Paper id="results-paper">
-            <SearchResults />
+            <SearchResults postResults={this.state.postResults} />
           </Paper>
         </Grid>
       </Grid>
