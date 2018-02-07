@@ -37,7 +37,7 @@ export class FacebookPost extends Component {
             className='post-height-manager'
           />
         </div>
-        <iframe ref={iframe => this.iframe = iframe }
+        <iframe ref={iframe => this.iframe = iframe } title={this.props.postLink}
           src={`https://www.facebook.com/plugins/post.php?href=${this.props.postLink}%2F&show_text=true&appId`}
           scrolling="yes" width="100%" height={`${this.state.height}px`} style={{ border: 'none' }}
           >
